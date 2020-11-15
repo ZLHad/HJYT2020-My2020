@@ -6,7 +6,11 @@ BY zlh
 
 github仓库地址：
 
-`https://github.com/ZLHad/HJYT2020-My2020`
+https://github.com/ZLHad/HJYT2020-My2020
+
+测试网页地址（加载可能有点慢）：
+
+https://zlhad.github.io/HJYT2020-My2020/index.html
 
 ## 2. 技术栈：Jquery+Bootstrap+swiper
 
