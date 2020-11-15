@@ -6,6 +6,8 @@ BY zlh
 
 github仓库地址：
 
+`https://github.com/ZLHad/HJYT2020-My2020`
+
 ## 2. 技术栈：Jquery+Bootstrap+swiper
 
 ## 3.How to start？
