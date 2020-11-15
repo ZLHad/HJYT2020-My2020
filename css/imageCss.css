@@ -1,0 +1,41 @@
+#containerimg {
+    position: absolute;
+    height: 700px;
+}
+
+.show-item {
+    position: absolute;
+    transition: all ease 0.6s;
+}
+
+.show-item img {
+    width: 160px;
+    display: block;
+    height: 100px;
+    backface-visibility: hidden;
+}
+
+.show-item div {
+    background: #fff;
+    text-align: center;
+    height: 24px;
+    line-height: 24px;
+    font-family: "微软雅黑";
+    color: #666;
+    backface-visibility: hidden;
+}
+
+.turn {
+    width: 180px;
+    perspective: 2000px;
+    transform-style: preserve-3d;
+    transform: rotateX(3deg) rotateY(0deg) translateY(100px) translateZ(-200px);
+    transition: all ease 0.2s;
+}
+
+.turn .show-item-turn {
+    border: 10px solid #fff;
+    box-shadow: 0 0 20px #444;
+    border-bottom: 10px solid #fff;
+    top: 220px;
+}

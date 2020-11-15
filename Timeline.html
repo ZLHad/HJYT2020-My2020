@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My2020-Timeline</title>
+    <!-- Main fucntion -->
+    <script src="js/loading.js"></script>
+    <!-- Loading Jquery -->
+    <script src="js/jquery-3.2.1.js"></script>
+
+    <!-- CSS Sources -->
+    <link rel="stylesheet" href="css/transformation.css">
+    <link rel="stylesheet" href="css/timeline.css">
+    <link rel="stylesheet" href="css/timeliner-container.css">
+    <link rel="stylesheet" href="js/vendor/venobox/venobox.css">
+    <link href="https://cdn.bootcss.com/font-awesome/5.8.0/css/all.css" rel="stylesheet" />
+    <!-- Bootstraps -->
+    <link rel="stylesheet" href="css/bootstrap-theme.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+
+</head>
+
+<body>
+    <script>
+        $('#loading').fadeToggle(10);
+    </script>
+    <header class="hero">
+        <div class="container">
+            <div class="col-md-6 col-md-offset-6 col-xs-12">
+                <nav>
+                    <ul class="main-nav">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="Timeline.html">Timeline</a></li>
+                        <li><a href="Pics.html">Pics</a></li>
+                        <li><a href="About.html">About</a></li>
+                    </ul>
+                </nav>
+                <div class="search-box">
+                    <input class="search-txt" type="text" placeholder="Type to search" />
+                    <a class="search-btn" href="#">
+                        <i class="fas fa-search"></i>
+                    </a>
+                </div>
+                <br><br><br><br>
+                <br><br><br><br>
+                <br><br><br><br>
+                <br><br><br><br>
+            </div>
+            <div class="container-fluid">
+                <div class="bg-sheet">
+                    <p class="bg-title text-center bounceInRight">时间轴</p>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="case-study">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h4 class="sub-heading">This is</h4>
+                    <h1 class="heading pink">
+                        <span class="pink">The timeline of</span>
+                        COVID-19 <br>
+                        in China
+                    </h1>
+                    <br><br><br>
+                    <div id="timeline" class="timeline-container">
+                        <button class="timeline-toggle">+ expand all</button>
+                        <br class="clear">
+                        <div class="timeline-wrapper">
+                            <h2 class="timeline-time"><span>2020.1-2</span></h2>
+                            <dl class="timeline-series">
+                                <span class="tick tick-before"></span>
+                                <dt id="t1" class="timeline-event"><a>初现端倪</a></dt>
+                                <span class="tick tick-after"></span>
+                                <dd class="timeline-event-content" id="t1EX">
+                                    <blockquote>
+                                        <p>2020年01月01日 华南海鲜市场关停、平安武汉发布消息8名散布 “谣言”者被查处</p>
+                                        <p>2020年01月02日 香港特区政府开会检视针对武汉疫情的预防措施，大批清洁工清洁华南海鲜市场</p>
+                                        <p>2020年01月03日 湖北省新华医院出现3例CT异常，武汉卫健委当日通报44例“不明原因病毒性肺炎”
+                                        </p>
+                                        <p>彼时，未见明显人传人和医护感染。</p>
+                                        <p>2020年01月06日 武汉大学中南医院收治重症肺炎病人，新华医院内部1名医生CT异常
+                                        </p>
+                                        <p>至此，国家疾控中心启动二级应急响应</p>
+                                        <p>2020年01月09日 新冠出现首个死亡病例</p>
+                                        <p>2020年01月15日 国家疾控中心启动一级应急响应</p>
+                                    </blockquote>
+
+                                    <br class="clear">
+                                </dd><!-- /.timeline-event-content -->
+
+                                <span class="tick tick-before"></span>
+                                <dt id="t2" class="timeline-event"><a>急速扩散</a></dt>
+                                <span class="tick tick-after"></span>
+                                <dd class="timeline-event-content" id="t2EX">
+                                    <blockquote>
+                                        <p>2020年01月20日 累计报告217例，钟南山接受白岩松采访,确定人传人</p>
+                                        <p>
+                                            <a href="img/t2.jpg" class="venobox" data-type="iframe">
+                                                确定人传人！
+                                            </a>
+                                        </p>
+                                        <p>2020年01月23日 累计确诊830例，死亡25例,武汉“封城”</p>
+                                        <p>
+                                            <a href="img/t3.jpg" class="venobox" data-type="iframe">
+                                                火神山医院开工,10天创造奇迹。
+                                            </a>
+                                        </p>
+                                        <p>2020年01月25日 累计确诊1975例，死亡56例/雷神山医院开工</p>
+                                        <p>2020年01月28日 累计确诊5974例，死亡132例，人数累计超过非典</p>
+                                        <p>2020年02月12日 累计确诊59764例，死亡1365例，诊断标准纳入临床诊断确认方法
+                                        </p>
+                                        <p>2020年02月13日 累计确诊63743例，死亡1487例，湖北省委书记、武汉市委书记换帅</p>
+                                        <p>2020年02月29日 累计确诊79968例，死亡2873例</p>
+
+                                    </blockquote>
+
+                                    <br class="clear">
+                                </dd><!-- /.timeline-event-content -->
+
+                            </dl><!-- /.timeline-series -->
+                        </div><!-- /.timeline-wrapper -->
+
+
+                        <div class="timeline-wrapper">
+                            <h2 class="timeline-time"><span>2020.3-4</span></h2>
+                            <dl class="timeline-series">
+                                <span class="tick tick-before"></span>
+                                <dt id="t3" class="timeline-event"><a>冰冷的增长数字</a></dt>
+                                <span class="tick tick-after"></span>
+                                <dd class="timeline-event-content" id="t3EX">
+                                    <blockquote>
+                                        <p>2020年03月01日 累计确诊80175例，死亡2915例</p>
+                                        <p>2020年03月04日 累计确诊80565例，死亡3015例</p>
+                                        <p>2020年03月06日 累计确诊80814例，死亡3073例</p>
+                                        <p>2020年03月09日 累计确诊80928例，死亡3140例</p>
+                                        <p>2020年03月12日 累计确诊81003例，死亡3180例</p>
+                                        <p>2020年03月15日 累计确诊81099例，死亡3218例</p>
+                                        <p>2020年03月18日 累计确诊81262例，死亡3250例</p>
+                                        <p>2020年03月21日 累计确诊81563例，死亡3267例</p>
+                                        <p>2020年03月24日 累计确诊81846例，死亡3287例</p>
+                                        <p>2020年03月27日 累计确诊82214例，死亡3301例</p>
+                                        <p>2020年03月30日 累计确诊82545例，死亡3314例</p>
+
+                                    </blockquote>
+                                    <br class="clear">
+                                </dd><!-- /.timeline-event-content -->
+
+                                <span class="tick tick-before"></span>
+                                <dt id="t4" class="timeline-event"><a>逐渐减缓的4月</a></dt>
+                                <span class="tick tick-after"></span>
+                                <dd class="timeline-event-content" id="t4EX">
+                                    <blockquote>
+                                        <p>2020年04月01日 累计确诊82722例，死亡3321例</p>
+                                        <p>2020年04月05日 累计确诊83005例，死亡3340例</p>
+                                        <p>2020年04月08日 累计确诊83249例，死亡3344例</p>
+                                        <p>2020年04月11日 累计确诊83482例，死亡3349例</p>
+                                        <p>2020年04月15日 累计确诊83798例，死亡3352例</p>
+                                        <p>2020年04月19日 累计确诊84239例，死亡4642例</p>
+                                        <p>2020年04月22日 累计确诊84302例，死亡4642例</p>
+                                        <p>2020年04月26日 累计确诊84341例，死亡4643例</p>
+                                        <p>2020年04月30日 累计确诊84385例，死亡4643例</p>
+                                    </blockquote>
+                                    <blockquote>
+                                        <p>
+                                            <a href="img/t4.jpg" class="venobox" data-type="iframe">
+                                                春暖花开，缓缓归矣。
+                                            </a>
+                                        </p>
+                                    </blockquote>
+                                    <br class="clear">
+                                </dd><!-- /.timeline-event-content -->
+
+
+                            </dl><!-- /.timeline-series -->
+                        </div><!-- /.timeline-wrapper -->
+
+                        <div class="timeline-wrapper">
+                            <h2 class="timeline-time"><span>2020.5-6</span></h2>
+                            <dl class="timeline-series">
+                                <span class="tick tick-before"></span>
+                                <dt id="t5" class="timeline-event"><a>逐渐解封</a></dt>
+                                <span class="tick tick-after"></span>
+                                <dd class="timeline-event-content" id="t5EX">
+                                    <blockquote>
+                                        <p>4月8日零时，武汉解除离汉离鄂管控</p>
+                                        <p>6月，全国高考因为疫情原因推迟一个月</p>
+                                    </blockquote>
+                                    <br class="clear">
+                                </dd><!-- /.timeline-event-content -->
+                            </dl><!-- /.timeline-series -->
+
+                        </div><!-- /.timeline-wrapper -->
+
+                        <div class="timeline-wrapper">
+                            <h2 class="timeline-time"><span>2020.7-至今</span></h2>
+                            <dl class="timeline-series">
+                                <span class="tick tick-before"></span>
+                                <dt id="t6" class="timeline-event"><a>回归正常</a></dt>
+                                <span class="tick tick-after"></span>
+                                <dd class="timeline-event-content" id="t6EX">
+                                    <blockquote>
+                                        <p>2020年06月01日 累计确诊84597例，死亡4645例</p>
+                                        <p>2020年07月01日 累计确诊85263例，死亡4648例</p>
+                                        <p>2020年08月01日 累计确诊86523例，死亡4659例</p>
+                                    </blockquote>
+                                    <br class="clear">
+                                </dd><!-- /.timeline-event-content -->
+                                <span class="tick tick-before"></span>
+                                <dt id="t7" class="timeline-event"><a>回归正常</a></dt>
+                                <span class="tick tick-after"></span>
+                                <dd class="timeline-event-content" id="t7EX">
+                                    <blockquote>
+                                        <p>
+                                            2020年9月，各大高校开始正常报道。
+                                        </p>
+                                        <p>
+                                            2020年10月，国庆节小长假爆发了旅游高潮。
+                                        </p>
+                                        <p>
+                                            至今为止，可以骄傲地说，中国的疫情基本已经控制住了。
+                                        </p>
+                                    </blockquote>
+                                    <br class="clear">
+                                </dd><!-- /.timeline-event-content -->
+                            </dl>
+                        </div>
+
+                        <button class="timeline-toggle">+ expand all</button>
+
+                        <br class="clear">
+
+                    </div><!-- /#timeline -->
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Bootom -->
+
+    <footer>
+        <div class="container-fluid">
+
+            <div class="row footer">
+                <div class="col-md-12 text-center">
+                    <p>Copyright &copy; 2020 ZhangLinghao All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- GLOBAL CORE SCRIPTS -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/vendor/venobox/venobox.min.js"></script>
+    <script type="text/javascript" src="js/timeliner.js"></script>
+    <script>
+        $(document).ready(function () {
+            $.timeliner({
+                timelineContainer: '#timeline',
+            });
+            $('.venobox').venobox();
+        });
+
+    </script>
+
+
+</body>
+
+</html>

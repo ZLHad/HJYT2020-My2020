@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My2020-Pics</title>
+    <!-- Main fucntion -->
+    <script src="js/loading.js"></script>
+    <!-- Loading Jquery -->
+    <script src="js/jquery-3.2.1.js"></script>
+
+    <!-- CSS Sources -->
+    <link rel="stylesheet" href="css/transformation.css">
+    <link rel="stylesheet" href="css/Pics.css">
+    <link rel="stylesheet" href="css/imageCss.css">
+    <link href="https://cdn.bootcss.com/font-awesome/5.8.0/css/all.css" rel="stylesheet" />
+    <!-- Bootstraps -->
+    <link rel="stylesheet" href="css/bootstrap-theme.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+
+</head>
+
+<body>
+    <script>
+        $('#loading').fadeToggle(10);
+    </script>
+    <header class="hero">
+        <div class="container">
+            <div class="col-md-6 col-md-offset-6 col-xs-12">
+                <nav>
+                    <ul class="main-nav">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="Timeline.html">Timeline</a></li>
+                        <li><a href="Pics.html">Pics</a></li>
+                        <li><a href="About.html">About</a></li>
+                    </ul>
+                </nav>
+                <div class="search-box">
+                    <input class="search-txt" type="text" placeholder="Type to search" />
+                    <a class="search-btn" href="#">
+                        <i class="fas fa-search"></i>
+                    </a>
+                </div>
+                <br><br><br><br>
+                <br><br><br><br>
+                <br><br><br><br>
+                <br><br><br><br>
+            </div>
+            <div class="container-fluid">
+                <div class="bg-sheet">
+                    <p class="bg-title text-center fadeInUp">图片墙</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Pics -->
+    <section class="case-study">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h4 class="sub-heading">那些记忆中的</h4>
+                    <h1 class="heading pink">
+                        <span class="pink">英雄</span>
+                    </h1>
+
+                    <div id="containerimg">
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <!-- Bootom -->
+
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <footer>
+        <div class="container-fluid">
+
+            <div class="row footer">
+                <div class="col-md-12 text-center">
+                    <p>Copyright &copy; 2020 ZhangLinghao All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- GLOBAL CORE SCRIPTS -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/imageCss.js"></script>
+    <script>
+        var showCfg = [
+            { imgSrc: "img/pics/1.jpg", text: "1", backText: "众志成城" },
+            { imgSrc: "img/pics/2.jpg", text: "2", backText: "医护人员" },
+            { imgSrc: "img/pics/3.jpg", text: "3", backText: "呐喊" },
+            { imgSrc: "img/pics/4.jpg", text: "4", backText: "并肩作战" },
+            { imgSrc: "img/pics/5.jpg", text: "5", backText: "新冠病毒" },
+            { imgSrc: "img/pics/6.jpg", text: "6", backText: "nCov2019" },
+            { imgSrc: "img/pics/7.jpg", text: "7", backText: "武汉·火神山医院" },
+            { imgSrc: "img/pics/8.jpg", text: "8", backText: "援意大利医疗队" },
+            { imgSrc: "img/pics/9.jpeg", text: "9", backText: "疾步前行" },
+            { imgSrc: "img/pics/10.jfif", text: "10", backText: "战疫" },
+            { imgSrc: "img/pics/11.png", text: "11", backText: "我好想你" },
+            { imgSrc: "img/pics/12.jpg", text: "12", backText: "中国加油" },
+            { imgSrc: "img/pics/13.jpeg", text: "13", backText: "武汉加油" },
+
+        ]
+        var show = new ShowImg(showCfg, "turn", containerimg);
+        show.initial()
+    </script>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,326 @@
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:100,400,700);
+/* ======= DEMO LAYOUT ======= */
+
+h1 {
+    color: #fdc344;
+    font-size: 36px;
+    font-weight: 400;
+    margin: 0;
+}
+
+h2 {
+    font-size: 22px;
+    font-weight: 400;
+    margin: 5px 0;
+    letter-spacing: .1em;
+}
+
+h3 {
+    font-size: 1.6em;
+    margin: 10px 0 10px 10px;
+}
+
+a:link, a:visited {
+    color: #ffba25;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #f76e6e;
+}
+
+a img {
+    border: none;
+}
+
+p {
+    margin: 0 0 10px 8px;
+    font-size: 1.5em;
+    font-weight: 400;
+    line-height: 1.6em;
+}
+
+.lead {
+    font-size: 2em;
+    margin-bottom: 40px;
+}
+
+.clear {
+    clear: both;
+    line-height: 0;
+    font-size: 0;
+}
+
+h1 {
+    color: #ffbc40;
+    font-size: 4.8em;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 3.6em;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+a:hover, a:link, a:visited {
+    color: #3292ff;
+    font-weight: bold;
+}
+
+.timeline-container {
+    border-left: 4px solid rgba(255, 179, 38, 0.884);
+    margin: 20px auto;
+    width: 900px;
+}
+
+.timeline-container-tick {
+    background: rgba(255, 136, 0, 0.788);
+    content: "";
+    display: block;
+    height: 4px;
+    left: -8px;
+    width: 14px;
+    position: relative;
+}
+
+.timeline-container::before {
+    background: rgba(255, 161, 21, 0.788);
+    content: "";
+    display: block;
+    height: 4px;
+    left: -8px;
+    width: 14px;
+    position: relative;
+    top: -4px;
+}
+
+.timeline-container::after {
+    background: rgba(255, 164, 27, 0.65);
+    content: "";
+    display: block;
+    height: 4px;
+    left: -8px;
+    width: 14px;
+    position: relative;
+    top: 4px;
+}
+
+.timeline-toggle {
+    background: rgba(255, 176, 29, 0.829);
+    border: 0;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    color: rgba(255, 255, 255, 0.85);
+    cursor: pointer;
+    float: right;
+    font-size: 12px;
+    margin-right: 0;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+.timeline-toggle:hover {
+    background: rgba(50, 190, 255, 0.8);
+    -webkit-transition: background 0.2s ease-in;
+    -moz-transition: background 0.2s ease-in;
+    -o-transition: background 0.2s ease-in;
+    transition: background 0.2s ease-in;
+}
+
+.timeline-toggle:focus {
+    outline: none;
+}
+
+.timeline-wrapper {
+    clear: left;
+    float: left;
+    margin: 0 0 12px;
+    width: 900px;
+}
+
+.timeline-wrapper .timeline-time::before {
+    border-top: 4px solid rgba(255, 154, 21, 0.65);
+    content: "";
+    display: inline-block;
+    height: 4px;
+    margin-right: 0px;
+    vertical-align: middle;
+    width: 24px;
+}
+
+.timeline-wrapper .timeline-time {
+    cursor: pointer;
+    font-size: 2.8em;
+    font-weight: 400;
+    margin: 0 0 30px 0;
+    padding: 0;
+}
+
+.timeline-wrapper .timeline-time span {
+    background: rgba(255, 143, 15, 0.65);
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    color: rgba(255, 255, 255, 0.966);
+    display: inline-block;
+    letter-spacing: 0;
+    padding: 10px 10px 5px 10px;
+    text-align: center;
+}
+
+.timeline-wrapper .timeline-time span:hover {
+    background: rgba(53, 207, 235, 0.774);
+    -webkit-transition: background 0.2s ease-in;
+    -moz-transition: background 0.2s ease-in;
+    -o-transition: background 0.2s ease-in;
+    transition: background 0.2s ease-in;
+}
+
+.timeline-series {
+    clear: left;
+    float: left;
+    margin: 0 12px 0 0;
+    padding: 4px 4px 4px 0;
+    position: relative;
+    width: 880px;
+}
+
+.timeline-series dt::before {
+    border-top: 3px solid rgba(255, 164, 28, 0.65);
+    content: "";
+    display: inline-block;
+    height: 3px;
+    margin-right: 10px;
+    vertical-align: middle;
+    width: 10px;
+}
+
+.timeline-series dt {
+    clear: left;
+    font-size: 2em;
+    line-height: 1.2em;
+    margin: 0 0 12px;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+.timeline-series dt a {
+    color: rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+}
+
+.timeline-series dt a .closed {
+    color: rgb(0, 0, 0);
+    font-size: 1em;
+    margin-left: 0;
+}
+
+.timeline-series dt a .open {
+    color: #29adff;
+}
+
+.timeline-series dt a:hover {
+    color: rgba(0, 110, 255, 0.6);
+    -webkit-transition: color 0.2s ease-in;
+    -moz-transition: color 0.2s ease-in;
+    -o-transition: color 0.2s ease-in;
+    transition: color 0.2s ease-in;
+}
+
+.timeline-series dd {
+    padding-left: 24px;
+    width: 100%;
+}
+
+.timeline-series dd h3 {
+    color: #FFF;
+    clear: both;
+    float: left;
+    font-size: 1.5em;
+    margin: 0;
+    white-space: nowrap;
+}
+
+.tick {
+    background: rgba(233, 139, 32, 0.65);
+    clear: both;
+    display: block;
+    height: 2px;
+    left: 0;
+    width: 4px;
+    position: relative;
+}
+
+.tick-before {
+    top: -6px;
+}
+
+.tick-after {
+    top: -4px;
+}
+
+.timeline-event-content {
+    display: none;
+    margin-bottom: 40px;
+}
+
+.timeline-event-content p {
+    clear: left;
+    float: left;
+    font-size: 1em;
+    font-weight: 100;
+    line-height: 1.2em;
+    margin: 6px 0 10px;
+    width: 500px;
+}
+
+.timeline-event-content h4 {
+    clear: left;
+    float: left;
+    font-size: 1.4em;
+    font-weight: 400;
+    margin: 10px 0 0;
+    padding: 0 0 0 20px;
+}
+
+.timeline-event-content blockquote {
+    border-left: 2px solid #ffcc24;
+    clear: left;
+    float: left;
+    line-height: 1.2em;
+    margin-left: 0;
+    padding: 0 30px;
+    width: 400px;
+}
+
+.timeline-event-content blockquote .attribution {
+    font-size: 0.7em;
+    text-align: right;
+}
+
+.timeline-event-content .media {
+    float: right;
+    padding: 0 0 12px;
+    width: 300px;
+}
+
+.timeline-event-content .media img {
+    border: 2px solid rgba(68, 180, 255, 0.85);
+    border-radius: 100px;
+    height: 200px;
+    margin: 0;
+    width: 200px;
+}
+
+.timeline-event-content .media p {
+    clear: both;
+    font-size: 1.4em;
+    margin: 15px 0;
+}
+
+.timeline-event-content .media p a {
+    text-transform: lowercase;
+}
